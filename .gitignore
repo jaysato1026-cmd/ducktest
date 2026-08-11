@@ -1,0 +1,15 @@
+node_modules/
+dist/
+release-*/
+outputs/
+vendor/
+.ui-test-profile/
+*.log
+*.tmp
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
