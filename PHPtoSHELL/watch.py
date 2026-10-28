@@ -1,4 +1,3 @@
-[rtk] /!\ No hook installed — run `rtk init -g` for automatic token savings
 """Interactive 8080 source guard. Python 3.7+; no third-party packages."""
 import argparse
 import datetime
@@ -67,7 +66,8 @@ class Backend:
         if address is not None:
             cmd += ['-Address', str(normalize(address))]
         result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                                timeout=45, encoding='utf-8', errors='replace')
+                                timeout=45, encoding='utf-8', errors='replace',
+                                creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
         if result.returncode:
             raise RuntimeError(result.stderr.strip() or result.stdout.strip() or 'Backend failed')
         return json.loads(result.stdout.lstrip('\ufeff').strip())
@@ -189,4 +189,3 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:
         print('Stopped; existing source blocks remain. Restart Watch to inspect/unblock them.')
-

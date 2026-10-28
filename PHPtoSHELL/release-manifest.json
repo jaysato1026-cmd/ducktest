@@ -1,0 +1,47 @@
+{
+  "product": "PHPtoSHELL",
+  "version": "2026.10.28",
+  "author": "Wang You-Jie",
+  "publisher": "Ailisa",
+  "publisher_identity_status": "User-selected display name; certificate identity not verified",
+  "security_profile": "Blue Team defensive audit and Windows Firewall source control",
+  "tests": {
+    "python": 42,
+    "gui_scroll_geo_and_runtime_path": "passed at 900x600; nested wheel scroll and page continuation",
+    "runtime_inventory": "read-only local probe passed",
+    "exe_smoke": "passed in demo mode after rebuild",
+    "powershell_firewall": "not rerun in this review"
+  },
+  "files": {
+    "ACCEPTANCE-MATRIX.md": "9a3ffc3f6f71e746c3e832159a8fbb064a9f91ef12a04d5ff3e9f68b5f25b2ec",
+    "diagnostics.py": "577c471508b7a35f2b5f189158c6df61d332648ea0b666fde7e520fb41d16a1d",
+    "GEO-import-example.csv": "98c8ee4b8aa4e3fabd8265811fb5770c6796f2129608b8fc95fcb443050b0d3d",
+    "Guard.ps1": "977edb2752a2de0065ebe88a3423e439cd343c74532d3e93fd324ca31129a39e",
+    "gui.py": "bc0eecd2557b8b57e839df1e6c3ec95d12581cc6bc5550396a1e93a1d79d23bb",
+    "health.py": "df5bd757c2051396e9e14a87501fe75e3f7e2dba9d0a4d041c47286c27506b55",
+    "Install-PHPtoSHELL.ps1": "0b68e6f14c5a955f4b04cad9399df0521c05869507c0ebfc6a920e62bdfd68e0",
+    "ip_intel.py": "b41fbabe2b9e24406eb88aa2d47d1988500a0fbe2d7e51c649b5cf672049670f",
+    "object-ips-example.json": "3935c7575c1ff4e49cbeb248020e9a488fa263c425a6388ab1e961d946448657",
+    "php_audit.py": "449e4d123d76f53ce38820f7d98b82061069b1671f54ac0dc2d0827486ea0679",
+    "PHPtoSHELL.exe": "65e7007c7e041b0934fcaac951ec123f6de79de1903806aa1df35074f19a64bf",
+    "plan.py": "b083d02646d42d71484f8d3efe1e34dd32ff9b797062f19c5bcc40ff83f000d4",
+    "README.md": "83c53a0b198a231f71d115fbef3f1a8d3c3fa25282805c3da3570e3e8731bb4a",
+    "runtime_inventory.py": "c1b99568517f03152acec8a3813a5c8b8cb6d5e3f56a36f7853614cf65495462",
+    "SECURITY-BOUNDARY.md": "3a7b558c19a48f4d488a1678efd17ab117dd677383f875f2c46dc78071a99f4e",
+    "Sign-PHPtoSHELL.ps1": "3e2733e59451586a7952dbfb0a5f4ee0db21ddd8d0659f19de5e745542d6a170",
+    "Support-Runbook.md": "9f33c1e1b69af430c184e952e259c28eada6e0dc89560a1ad220dcdf75ee20ff",
+    "UPDATE-GUIDE.md": "428a466d06db9ba611b09f7d2e48e3dd92942598f7652f9664acfe8e89c5c705",
+    "Update-PHPtoSHELL.ps1": "05b562c56903697113314f8b5fb42623fa67cfb4aef20dac4fbce85f8da23d39",
+    "Verify-PHPtoSHELL.ps1": "8d5d8ae242a1ae1919427730f3ac4fa22d97a7ba2eb1e350d1cc880627c79689",
+    "VERSION.txt": "e71c230c33a96467939641d17d67c8dd2384705dc27fcbabda50d4986c300cf0",
+    "watch.py": "435126a8e0e27d7b35dad9cc50799727afb9e4ca8dc76695f0168b6908b6dfec",
+    "WatchBackend.ps1": "86665e2b7b3060b46fcf384156a5d8176322f5649082d7d0e011049b38b9496d"
+  },
+  "notes": [
+    "No exploit traffic is generated.",
+    "Firewall changes require operator confirmation and administrator rights.",
+    "Production deployment and code signing require local organizational approval."
+  ],
+  "commercial_readiness": "not yet accepted; see SECURITY-BOUNDARY.md",
+  "packaging_verification": "Hashes regenerated; test results are historical unless accompanied by a current test report."
+}

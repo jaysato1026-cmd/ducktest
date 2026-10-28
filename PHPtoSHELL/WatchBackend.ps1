@@ -1,4 +1,3 @@
-[rtk] /!\ No hook installed — run `rtk init -g` for automatic token savings
 #requires -Version 5.1
 [CmdletBinding()]
 param(
@@ -93,4 +92,3 @@ try{
     foreach($r in @(Get-Owned $name)){$r | Remove-NetFirewallRule}
     throw $original
 }
-

@@ -1,4 +1,3 @@
-[rtk] /!\ No hook installed — run `rtk init -g` for automatic token savings
 """Offline planner. Python 3.7+, standard library only. No network or firewall writes."""
 import argparse
 import hashlib
@@ -62,4 +61,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
